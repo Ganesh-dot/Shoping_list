@@ -26,5 +26,3 @@ export const button = ({
                 <button className={`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`} onCLick={onCLick} type={type}>{children}</button>
             )
         }
-
-    export default Button;
