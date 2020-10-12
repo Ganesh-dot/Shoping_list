@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { MdFingerprint } from "react-icons/md";
 import { FaBars , FaTimes } from 'react-icons/fa';
-import { Button } from './Button';
+import Button from './Button';
 import './Navbar.css';
+ 
 
 function Navbar() {
      
@@ -26,7 +27,7 @@ function Navbar() {
 
     window.addEventListener('resize' , showbutton); 
     return (
-        <>
+        <React.Fragment>
          <div className="navbar">
           <div className="navbar-container container" >
             <Link to="/" className="navbar-logo">
@@ -67,8 +68,8 @@ function Navbar() {
              </ul>
           </div>
          </div>
-        </>
+        </React.Fragment>
     )
 }
 
-export default Navbar
+export default Navbar;
