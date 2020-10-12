@@ -16,7 +16,7 @@ function Navbar() {
 
     const closeMobileMenu = () => setClick(false)
 
-    const showbutton = () => {
+    const showButton = () => {
         if(window.innerWidth <= 960){
             setButton(false)
         }else{
@@ -24,7 +24,7 @@ function Navbar() {
         }
     };
 
-    window.addEventListener('resize' , showbutton); 
+    window.addEventListener('resize' , showButton); 
     return (
         <>
          <div className="navbar">
@@ -71,4 +71,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar;
