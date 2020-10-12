@@ -7,7 +7,7 @@ const SIZES = ['btn-medium' , 'bnt-large' , 'btn-mobile' , 'btn-wide'];
 
 const COLOR = ['primary' , 'blue' , 'red' , 'green'];
 
-export const Button = ({ 
+const Button = ({ 
             children , 
             type , 
             onCLick , 
@@ -25,4 +25,5 @@ export const Button = ({
             return (
                 <button className={`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`} onCLick={onCLick} type={type}>{children}</button>
             )
-        }
+        };
+export default Button;
