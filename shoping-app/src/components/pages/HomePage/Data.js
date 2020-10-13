@@ -1,6 +1,6 @@
 export const homeObjOne = {
     lightBg: false ,
-    lightText: false , 
+    lightText: true , 
     lightTextDesc: true ,
     topLine: "Exclusive Access" , 
     headline: "Unlimited tranction with Zero fees" , 
