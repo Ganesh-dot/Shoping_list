@@ -10,7 +10,7 @@ function SignUp() {
       <HeroSection {...homeObjTwo} />
       <HeroSection {...homeObjThree} />
       <HeroSection {...homeObjFour} />
-        <Pricing />
+      <Pricing />
     </>
   );
 }

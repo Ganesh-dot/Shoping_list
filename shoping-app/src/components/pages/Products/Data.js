@@ -8,7 +8,7 @@ export const homeObjOne = {
       'We provide worldwide shipping to all countries. If there are any issues, just issue a refund and we will process your request',
     buttonLabel: 'Shop Now',
     imgStart: '',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-wHh00S0pzjJzfYUWNWIdpbQWvhZwcLBpyw&usqp=CAU',
+    img: 'https://raw.githubusercontent.com/briancodex/react-website-v2/bdede367c9ac99d95de7fce8765c27e86b7fe152/public/images/svg-1.svg',
     alt: 'Credit Card'
   };
   

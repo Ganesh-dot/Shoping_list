@@ -6,11 +6,12 @@ import Pricing from '../../Pricing';
 function Services() {
   return (
     <>
-      <Pricing />
+      <Pricing> 
       <HeroSection {...homeObjOne} />
       <HeroSection {...homeObjTwo} />
       <HeroSection {...homeObjThree} />
       <HeroSection {...homeObjFour} />
+      </Pricing>
     </>
   );
 }
